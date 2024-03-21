@@ -3,9 +3,10 @@ import React from 'react'
 const Footer = () => {
     return (
         <div className='bg-gray-200 mt-10 font-medium'>
-            <p className='font-bold px-6 pt-5 '>Desert Safaris Abu Dhabi for an
+            <p className='text-sm font-bold px-6 pt-5 '><span className='text-blue-800'>Desert Safaris Abu Dhabi </span> for an
                 unforgettable experience at an affordable price.
-                Explore the beauty of the desert with our expert guides and indulge in an extreme adventure. Book your Abu Dhabi Desert Safaris
+                Explore the beauty of the desert with our expert guides and 
+                indulge in an extreme adventure. Book your <span className='text-blue-800'> Abu Dhabi Desert Safaris</span>
                 now for an affordable yet luxurious escape</p>
             <div className='flex items-start py-4 px-6'>
                 <div className='w-1/4 text-justify '>
@@ -16,7 +17,7 @@ const Footer = () => {
                         Abu Dhabi with Desert Dinner that will leave you wanting for
                         more. Desert Drive Abu Dhabi is a not to miss opportunity
                         where you get a chance to experience off road tours Abu Dhabi
-                        with best Desert Safaris Abu Dhabi Deals and offers at the best
+                        with best Desert Safaris<span className='text-blue-800'> Abu Dhabi Deals and offers </span>  at the best
                         price. Desert Camping Abu Dhabi is once in a lifetime moment with Abu Dhabi Jeep safari and
                         dune Bashing where you can ride through the dunes. Get Ready for more Desert Safaris Abu Dhabi Deals and Activities with us! Book Abu Dhabi Desert Safaris Tours and enjoy Safari
                         Abu Dhabi Special Offers with Extreme Tours.</p>

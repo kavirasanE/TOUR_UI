@@ -3,7 +3,7 @@ import React from 'react'
 export const ContactUs = () => {
     return (
         <div>
-            <div className='bg-gray-400 text-white p-10 pt-48'>
+            <div className='bg-zinc-500 text-white p-10 pt-48'>
                 <p className='font-bold text-2xl'>LET'S TALK !</p>
                 <p className='font-bold '>Extreme Tourism LLC</p>
                 <p>Khalidiya tower, Mezzanine Floor, Room No. 32, Khalidiya, Abu Dhabi, United Arab Emirates.</p>
