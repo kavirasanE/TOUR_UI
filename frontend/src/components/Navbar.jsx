@@ -22,7 +22,7 @@ const Navbar = () => {
                <Link to="/aboutcompany" className='hover:text-rose-800'>About Company</Link>
                <Link to="/aboutcompany" className='hover:text-rose-800'>Combo Offers</Link>
                <Link to="/aboutcompany" className='hover:text-rose-800'>Testimonials</Link>
-               <Link to="/aboutcompany" className='hover:text-rose-800'>Contact Us</Link>
+               <Link to="/contactus" className='hover:text-rose-800'>Contact Us</Link>
             </div>
             <div className='flex mx-10 gap-5 font-semibold'>
                <p> FAQ</p>
