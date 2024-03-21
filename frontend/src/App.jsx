@@ -1,7 +1,14 @@
+import Navbar from "./components/Navbar";
+import { BrowserRouter,Routes,Route } from "react-router-dom";
+import AboutCompany from "./pages/AboutCompany";
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+   <BrowserRouter>
+   <Navbar/>
+   <Routes>
+    <Route path="/aboutcompany" element={<AboutCompany/>}/>
+   </Routes>
+   
+   </BrowserRouter>
   )
 }
