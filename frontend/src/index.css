@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    * {
+      margin: 0;
+      padding: 0;
+      /* font-family: "Poppins", sans-serif; */
+    }
+}
 .buttontheme {
     @apply border border-gray-400 font-bold text-sm p-1 px-4 rounded-md hover:bg-rose-800 hover:text-white ;
 }
