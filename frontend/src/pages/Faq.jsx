@@ -1,9 +1,12 @@
-import React, { useCallback } from 'react'
+import React, { useCallback, useState } from 'react'
 import FAQTab from '../components/FAQTab'
 
 const Faq = () => {
+    const [id,setId] =useState()
     const handleToggle = useCallback((e) => {
-            
+        e.stopPropagation();
+        console.log(Array.index);
+            setId(index)
     },[]);
     return (
         <div className='bg-slate-100'>
