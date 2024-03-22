@@ -6,7 +6,7 @@ const Navbar = () => {
       <div>
          <div className='flex justify-between items-center p-4 mx-10'>
             <div >
-               <img src={logo} alt='logo' className='w-36' />
+               <img src={logo} alt='logo' className='w-36 h-14 rounded-lg' />
             </div>
             <div className='border border-gray-400 rounded-md '>
                <input placeholder="Search Package Here!" className='font-semibold text-sm outline-none p-2 relative mr-36' />

@@ -22,7 +22,7 @@ const Footer = () => {
                         dune Bashing where you can ride through the dunes. Get Ready for more Desert Safaris Abu Dhabi Deals and Activities with us! Book Abu Dhabi Desert Safaris Tours and enjoy Safari
                         Abu Dhabi Special Offers with Extreme Tours.</p>
                     <p className='my-4'><span>Ph</span> +9876543232</p>
-                    <p><span>em</span> bookings@extremetours.ae</p>
+                    <p><span>em</span> bookings@zhacode.ae</p>
                 </div>
                 <div className='flex justify-between px-10 w-5/6 '>
                     <div >
@@ -67,7 +67,7 @@ const Footer = () => {
             </div>
             <div className='bg-gray-700 text-white flex justify-between items-center p-5 text-sm font-bold'>
                     <p className='flex flex-col'>Managed By <span>Tours@wild</span></p>
-                    <p>©2024 Desert Safari Abu Dhabi - Extreme Tourism. All rights reserved.</p>
+                    <p>©2024 ZhaCode Technologies. All rights reserved.</p>
                 </div>
         </div>
     )
