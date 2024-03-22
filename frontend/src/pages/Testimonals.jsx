@@ -15,6 +15,9 @@ const Testimonals = () => {
         <TestimonialCard />
         <TestimonialCard />
       </div>
+      <div className='flex justify-center items-center'>
+      <button className='border border-gray-200 font-bold text-sm p-2 px-4 rounded-md bg-rose-700 hover:bg-rose-800 text-white'> View all reviews</button>
+      </div>
     </div>
   )
 }
