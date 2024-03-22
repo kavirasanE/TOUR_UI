@@ -7,9 +7,9 @@ import TourImages from '../components/TourPage/TourImages'
 const TourPage = () => {
     return (
         <div className='max-w-screen flex justify-between items-start px-10'>
-            <div className=' mr-5 '>
-                <p className='py-4 text-3xl font-bold'>Sunrise Desert Safari Abu Dhabi</p>
-                <p><span className='text-yellow-400'>4.9 </span>Instant confirmation </p>
+            <div className=' mr-5'>
+                <p className='pt-4 text-3xl font-bold'>Sunrise Desert Safari Abu Dhabi</p>
+                <p className='py-4 gap-5 flex'><span className='text-yellow-400 '>4.9</span> Instant confirmation </p>
                 <TourImages />
                 <TourFacility />
                 <TourOverview />
