@@ -19,7 +19,7 @@ const Navbar = () => {
          <div className='flex mx-10 p-4 justify-between items-center'>
             <div className='flex gap-5 font-medium'>
                <Link to="/tourcategory" className='hover:text-rose-800' >Tour Category</Link>
-               <Link to="/aboutcompany" className='hover:text-rose-800'>About Company</Link>
+               <Link to="/" className='hover:text-rose-800'>About Company</Link>
                <Link to="/tourpage" className='hover:text-rose-800'>Combo Offers</Link>
                <Link to="/testimonals" className='hover:text-rose-800'>Testimonials</Link>
                <Link to="/contactus"   className='hover:text-rose-800'>Contact Us</Link>
