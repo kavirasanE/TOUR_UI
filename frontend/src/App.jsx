@@ -6,6 +6,7 @@ import { ContactUs } from "./pages/ContactUs";
 import TourCategory from "./pages/TourCategory";
 import Testimonals from "./pages/Testimonals";
 import TourPage from "./pages/TourPage";
+import Faq from "./pages/Faq";
 export default function App() {
   return (
    <BrowserRouter>
@@ -16,6 +17,7 @@ export default function App() {
     <Route path="/tourcategory" element={<TourCategory/>}/>
     <Route path="/testimonals" element={<Testimonals/>}/>
     <Route path="/tourpage" element={<TourPage/>}/>
+    <Route path="/faq" element={<Faq/>}/>
    </Routes>
    <Footer/>
    </BrowserRouter>

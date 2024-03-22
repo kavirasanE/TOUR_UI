@@ -25,7 +25,7 @@ const Navbar = () => {
                <Link to="/contactus"   className='hover:text-rose-800'>Contact Us</Link>
             </div>
             <div className='flex mx-10 gap-5 font-semibold'>
-               <p> FAQ</p>
+               <Link to="/faq"> FAQ</Link>
                <p>Chat Now </p>
             </div>
          </div>
