@@ -4,7 +4,7 @@ export const ContactUs = () => {
     return (
         <div>
             <div className='bg-zinc-500 text-white p-10 pt-48'>
-                <p className='font-bold text-2xl'>LET'S TALK !</p>
+                <p className='font-bold text-4xl pb-4'>LET'S TALK !</p>
                 <p className='font-bold '>Extreme Tourism LLC</p>
                 <p>Khalidiya tower, Mezzanine Floor, Room No. 32, Khalidiya, Abu Dhabi, United Arab Emirates.</p>
                 <div className='justify-between flex pr-64 pt-4 pb-24 font-bold'>
