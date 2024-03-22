@@ -4,7 +4,7 @@ import ImageOverview from '../components/ImageOverview'
 const AboutCompany = () => {
   return (
     <div >
-        <ImageOverview/>
+        <ImageOverview head={"Why Extreme Tourism"} overview={"Best Luxury Desert Safari Operators in Abu Dhabi with Abu Dhabi Desert Safari cost and more packages which is your one-stop travel agency that offers memorable and blissful tours and travels"}/>
       <div className='mx-16'>
         <h1  className='text-center font-bold text-2xl p-4'>Why Extreme Tourism</h1>
         <p className='mt-2'>Best Luxury Desert Safari Operators in Abu Dhabi with Abu Dhabi Desert Safari cost and more packages which is
