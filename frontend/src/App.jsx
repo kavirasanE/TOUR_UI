@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import { ContactUs } from "./pages/ContactUs";
 import TourCategory from "./pages/TourCategory";
 import Testimonals from "./pages/Testimonals";
+import TourPage from "./pages/TourPage";
 export default function App() {
   return (
    <BrowserRouter>
@@ -14,6 +15,7 @@ export default function App() {
     <Route path="/contactus" element={<ContactUs/>}/>
     <Route path="/tourcategory" element={<TourCategory/>}/>
     <Route path="/testimonals" element={<Testimonals/>}/>
+    <Route path="/tourpage" element={<TourPage/>}/>
    </Routes>
    <Footer/>
    </BrowserRouter>

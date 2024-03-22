@@ -1,6 +1,6 @@
 import React from 'react'
-import TourCategoriesResults from '../components/TourCategories.jsx/TourCategoriesResults'
-import TourCategoriesOption from '../components/TourCategories.jsx/TourCategoriesOption'
+import TourCategoriesResults from '../components/TourCategories/TourCategoriesResults'
+import TourCategoriesOption from '../components/TourCategories/TourCategoriesOption'
 
 const TourCategory = () => {
   return (
