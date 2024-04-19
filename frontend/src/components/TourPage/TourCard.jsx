@@ -6,7 +6,7 @@ const TourCard = () => {
             <div className='w-64'>
                 <img src={about} className='w-64 h-60 rounded-xl' />
                 <h1 className='font-bold  text-nowrap truncate mt-4'>Dubai Tour From Abu Dhabi</h1>
-                <p className='text-xs '>Duration <span className='text-rose-800 font-bold text-lg'>10 Hrs</span></p>
+                <p className='text-xs '>Durations <span className='text-rose-800 font-bold text-lg'>10 Hrs</span></p>
             </div>
         </div>
     )
